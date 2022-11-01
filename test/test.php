@@ -5,7 +5,7 @@ class WeightCheckTest extends \PHPUnit\Framework\TestCase
 {
 
     function setUp(): void{
-        $inventory = new App\Weight;
+        // $inventory = new App\Weight;
     }
 
 public function testMinAmount()
