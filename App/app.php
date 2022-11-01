@@ -1,5 +1,5 @@
 <?php
-// namespace App;
+namespace App;
 
 class Weight{
     private $weight;

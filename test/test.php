@@ -1,5 +1,6 @@
 <?php
 
+use App\Weight;
 
 class WeightCheckTest extends \PHPUnit\Framework\TestCase
 {
