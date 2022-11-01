@@ -10,7 +10,7 @@ class WeightCheckTest extends \PHPUnit\Framework\TestCase
 
 public function testMinAmount()
    {
-    $weight = new \App\Weight;
+    $weight = new Weight;
     $weight->setWeight(900);
     $this->assertEquals("Overweight", $weight->checkWeight());
    }
