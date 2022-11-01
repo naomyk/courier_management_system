@@ -1,12 +1,12 @@
 <?php
 
-use App\Weight;
+use Weight;
 
 class WeightCheckTest extends \PHPUnit\Framework\TestCase
 {
 
     function setUp(): void{
-        // $inventory = new App\Weight;
+        $inventory = new Weight;
     }
 
 public function testMinAmount()
